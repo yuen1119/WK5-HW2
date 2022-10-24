@@ -1,0 +1,188 @@
+html
+{
+  font-family: Arial; 
+  box-sizing: border-box;
+}
+*,*:after,*:before
+{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0%;   
+    background-color: #edf2c5;
+    font-family: Arial;   
+}
+.BackGround{
+    width: 1260px;
+    height: 880px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #edf2c5;
+}
+.Title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body
+{
+    justify-content: center; 
+    align-items: center; 
+}
+.Title{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 44px;
+    color:#778a50;
+    font-weight: 900;
+    margin: 0%;
+}
+.name
+{
+    font-size: 44px;
+    color:#778a50;
+    margin: 0px;
+    font-weight: 900;
+    width: 271px;
+    height: 42px;
+    align-items: baseline;
+    margin-top: 33px;
+}
+
+.MediaGroup
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 62px;
+    
+}
+.ImgButton
+{
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+}
+.SpaceLine
+{
+  width: 2px;
+  height: 25px;
+  background-color: #778a50;
+  margin-left: 10px;
+}
+.WordButton
+{
+    
+  color: #778a50;
+  padding: 5px 5px;
+  border: solid 2px #778a50;
+  height: 25px;
+  border-radius:5px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0px;
+
+}
+.Syllabus
+{
+    display: flex;
+    background-color: #778a50;
+    border-radius: 5px;
+}
+
+.Syllabus p
+{
+    color: #edf2c5;
+    margin-left: 60px;
+    font-weight: 900;
+}
+
+.Major
+{
+    height: 448px;
+    margin-top: 20px;
+}
+.three
+{
+    display: flex;
+    justify-content: space-between;
+}
+.ThreeMinor{
+    width: 445px;
+    margin-right: 50px;
+}
+
+.MinorTitle
+{   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 940;
+    background-color: #778a50;
+    color: #edf2c5;
+    border-radius: 3px;
+    padding-left: 30px;
+    width: 445px;
+    height: 45px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.MajorIMG{
+    width: 445px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MajorIMG.img{
+    height: 140px;
+    width: 140px;
+    margin-right:0;
+    display: flex;
+    justify-content: space-between;
+}
+.UpperTitle
+{
+
+    font-size: 12px;
+    background-color: #f7fbda;
+    color: #7d7d7d;
+    width: 444px;
+    padding: 10px 10px 10px 10px ;
+}
+
+.BelowTitle
+{
+
+    font-size: 12px;
+    background-color: #f7fbda;
+    color: #7d7d7d;
+    width: 410px;
+}
+/* footer */
+
+
+footer
+{
+    background-color: #778a50;
+    color: #edf2c5;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
